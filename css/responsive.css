@@ -150,14 +150,13 @@
     position: absolute;
     top: 100%;
     padding: 0;
-    left: 13.2%;
+    left: 3.2%;
     display: flex;
-    width: 73.6%;
+    width: 93.6%;
     align-items: center;
     border: 1px solid #ddd;
     margin-top: 5px;
-    position: absolute;
-
+    /* position: absolute; */
   }
 
   .header-topbar form input {
