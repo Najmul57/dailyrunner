@@ -245,7 +245,8 @@ nav ul li a {
   background: red;
   padding: 5px 20px;
   clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
-  padding-top: 6px;
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
 }
 
 .author-info span>.p1 {
