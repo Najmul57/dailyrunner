@@ -197,7 +197,7 @@
     width: 50%;
   }
 
-  .left-card-img img {
+  .left-card-img img, .post-heading img {
     height: 250px !important;
     object-fit: cover;
   }
@@ -209,6 +209,9 @@
   }
   .card-img-overlay h6, .category-news-card a>h6 {
     font-size: 12px;
+  }
+  .post-details img {
+    height: 250px !important;
   }
 }
 
@@ -249,11 +252,17 @@
 
   /* new nav bar  */
   .header-topbar form {
-    left: 24.2%;
-    width: 51.6%;
-
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    left: 8%;
+    display: flex;
+    width: 84%;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    /* position: absolute; */
   }
-
   .header-topbar form input {
     width: 100%;
     padding: 8px;
