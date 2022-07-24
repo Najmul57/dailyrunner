@@ -65,8 +65,8 @@
   <!-- header end -->
 
   <!-- navbar start -->
-  <nav>
-    <div class="container-fluid  bg-green my-1 py-2">
+  <nav class="header-sticky">
+    <div class="container-fluid  bg-green py-2">
 
       <div class="container d-flex justify-content-between">
         <!-- brand logo & nav start -->
@@ -3598,6 +3598,18 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js"></script>
+
+  <script>
+     $(window).on('scroll', function () {
+        var scroll = $(window).scrollTop();
+        if (scroll < 245) {
+            $(".header-sticky").removeClass("sticky");
+        } else {
+            $(".header-sticky").addClass("sticky");
+        }
+    });
+
+  </script>
 
   <script>
     $(function () {

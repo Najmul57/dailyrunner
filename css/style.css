@@ -1,7 +1,11 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-
+*{
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
 p {
   font-family: 'Roboto', sans-serif;
   font-size: .8rem;
@@ -53,12 +57,20 @@ input:focus {
 .header-topbar span {
   font-size: 12px;
 }
-
+.header-sticky.sticky {
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+	top: 0;
+	transition: .5s;
+}
 .header-social a:hover {
   background-color: tomato;
   color: #fff;
 }
-
+.navbar-items a:hover {
+	color: #fff;
+}
 input:focus {
   border: none;
 }
