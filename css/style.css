@@ -58,7 +58,7 @@ input:focus {
   font-size: 12px;
 }
 .header-sticky.sticky {
-	position: fixed;
+	position: sticky;
 	width: 100%;
 	z-index: 9;
 	top: 0;
