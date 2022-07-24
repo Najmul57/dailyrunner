@@ -213,6 +213,14 @@
   .post-details img {
     height: 250px !important;
   }
+  nav {
+    margin-top: 50px !important;
+    margin-bottom:-10px !important;
+  }
+  .news-left {
+    margin: 0;
+    margin-top: -17px;
+  }
 }
 
 
