@@ -1,8 +1,5 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
-
-
-}
+@media (min-width: 1200px) and (max-width: 1500px) {}
 
 
 /* Normal desktop :992px. */
@@ -51,7 +48,7 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
- 
+
 
   .header-social a {
     margin-right: 5px;
@@ -215,39 +212,83 @@
   .header-topbar {
     position: relative;
   }
+
   .header-social {
     width: 100%;
     text-align: center;
   }
+
+
+  iframe {
+    height: 300px;
+  }
+
   .nav-pills .sidebar-tab-item-1.active {
     padding: 9px 70px;
   }
+
+  .nav-pills .sidebar-tab-item-1 {
+    padding: 9px 70px;
+  }
+
   .nav-pills .sidebar-tab-item-2 {
     padding: 9px 45px;
   }
-  .nav-pills .sidebar-tab-item-1 {
-    padding: 9px 69px;
-  }
+
   .nav-pills .sidebar-tab-item-2.active {
     padding: 9px 45px;
   }
-  iframe{
-    height:300px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .nav-pills .sidebar-tab-item-1.active {
+    padding: 9px 70px;
+  }
+
+  .nav-pills .sidebar-tab-item-1 {
+    padding: 9px 70px;
+  }
+
+  .nav-pills .sidebar-tab-item-2 {
+    padding: 9px 45px;
+  }
+
+  .nav-pills .sidebar-tab-item-2.active {
+    padding: 9px 45px;
   }
 }
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+  .nav-pills .sidebar-tab-item-1.active {
+    padding: 9px 70px;
+  }
+
+  .nav-pills .sidebar-tab-item-1 {
+    padding: 9px 70px;
+  }
+
+  .nav-pills .sidebar-tab-item-2.active {
+    padding: 9px 45px;
+  }
+
+  .nav-pills .sidebar-tab-item-2 {
+    padding: 9px 45px;
+  }
   .header-social a {
     margin-right: 5px;
   }
+
   .header-social {
     width: 100%;
     text-align: center;
   }
+
   nav {
     margin-top: 50px;
   }
+
   .header-topbar {
     text-align: center;
   }
@@ -295,22 +336,19 @@
     width: 24%;
   }
 
-  .nav-pills .sidebar-tab-item-1.active {
-    margin-top: 7px;
-    padding: 9px 83px;
-  }
-
-  .nav-pills .sidebar-tab-item-2 {
-    margin-top: 7px;
-    padding: 9px 57px;
-  }
-
   .nav-pills .sidebar-tab-item-1 {
-    margin-top: 7px;
-    padding: 9px 83px;
+    padding: 9px 105px;
   }
 
   .nav-pills .sidebar-tab-item-2.active {
-    padding: 9px 57px;
+    padding: 9px 80px;
+  }
+
+  .nav-pills .sidebar-tab-item-1.active {
+    padding: 9px 105px;
+  }
+
+  .nav-pills .sidebar-tab-item-2 {
+    padding: 9px 80px;
   }
 }
