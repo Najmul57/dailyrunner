@@ -182,7 +182,7 @@ nav ul li a {
 }
 
 #menu-btn {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* click menu  end*/
@@ -269,6 +269,9 @@ marquee>a:hover {
   color: rgb(69, 69, 181) !important;
 }
 
+marquee {
+	border: 1px solid #014224;
+}
 .video-header-text {
   color: #dc3545;
 }
