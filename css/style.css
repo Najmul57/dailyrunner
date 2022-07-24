@@ -1,11 +1,12 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-*{
+* {
   padding: 0;
   margin: 0;
   outline: none;
 }
+
 p {
   font-family: 'Roboto', sans-serif;
   font-size: .8rem;
@@ -57,20 +58,24 @@ input:focus {
 .header-topbar span {
   font-size: 12px;
 }
+
 .header-sticky.sticky {
-	position: sticky;
-	width: 100%;
-	z-index: 9;
-	top: 0;
-	transition: .5s;
+  position: sticky;
+  width: 100%;
+  z-index: 9;
+  top: 0;
+  transition: .5s;
 }
+
 .header-social a:hover {
   background-color: tomato;
   color: #fff;
 }
+
 .navbar-items a:hover {
-	color: #fff;
+  color: #fff;
 }
+
 input:focus {
   border: none;
 }
@@ -237,9 +242,10 @@ nav ul li a {
 }
 
 .category-name span {
-  background-color: #b30f0f;
-  padding-top: 5px;
-  padding-bottom: 5.5px;
+  background: red;
+  padding: 5px 20px;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  padding-top: 6px;
 }
 
 .author-info span>.p1 {
@@ -295,16 +301,21 @@ marquee>a:hover {
 .sidebar-newsfeed-area ul li button {
   width: 100%;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #2E6444;
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #2E6444;
 }
+
 .sidebar-newsfeed-area ul li button {
-	color: #000;
+  color: #000;
 }
+
 .sidebar-newsfeed-area ul li button {
-	font-size: 14px;
+  font-size: 14px;
 }
+
 img.card-img {
   opacity: 0.7;
 }
@@ -403,14 +414,14 @@ hr {
 }
 
 #scrollUp i {
-	background: #000;
-	color: #fff;
-	font-size: 15px;
-	padding: 7px;
-	width: 30px;
-	text-align: center;
-	border-radius: 100%;
-	height: 30px;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  padding: 7px;
+  width: 30px;
+  text-align: center;
+  border-radius: 100%;
+  height: 30px;
 }
 
 
